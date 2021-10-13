@@ -24,16 +24,19 @@ $gutter-width: 20px;
 }
 
 .container{
+  background-color: red;
   @include clearfix;
-  @include grid-unit(12)
+  @include grid-unit(12);
   float: none;
   margin: 0 auto;
 }
 
-// .grid-column{
+body > * {
+  font-family: 'Open Sans', sans-serif;
+}
 
-// }
 
-// .grid-gutter{
-
-// }
+.btn {
+  border: 1px solid black;
+  border-radius: 0.5em;
+}
