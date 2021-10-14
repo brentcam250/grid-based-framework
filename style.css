@@ -1,0 +1,28 @@
+.group:before, .group:after {
+  content: "";
+  display: table; }
+.group:after {
+  clear: both; }
+.group {
+  zoom: 1; }
+
+.container {
+  background-color: red;
+  float: none;
+  margin: 0 auto; }
+  .container:before, .container:after {
+    content: "";
+    display: table; }
+  .container:after {
+    clear: both; }
+  .container {
+    zoom: 1; }
+
+body > * {
+  font-family: 'Open Sans', sans-serif; }
+
+.btn {
+  border: 1px solid black;
+  border-radius: 0.5em; }
+
+/*# sourceMappingURL=style.css.map */

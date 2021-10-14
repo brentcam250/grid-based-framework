@@ -17,16 +17,16 @@ $gutter-width: 20px;
    @include clearfix;
  }
 
-@mixin grid-unit($span) {
-  float: left;
-  margin-right: $gutter-width;
-  width: ($column-width * $span) + ($gutter-width *($span -1));
-}
+// @mixin grid-unit($span) {
+//   float: left;
+//   margin-right: $gutter-width;
+//   width: ($column-width * $span) + ($gutter-width *($span -1));
+// }
 
 .container{
   background-color: red;
   @include clearfix;
-  @include grid-unit(12);
+  // @include grid-unit(12);
   float: none;
   margin: 0 auto;
 }
