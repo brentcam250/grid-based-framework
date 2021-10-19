@@ -17,18 +17,23 @@ $gutter-width: 20px;
    @include clearfix;
  }
 
-// @mixin grid-unit($span) {
-//   float: left;
-//   margin-right: $gutter-width;
-//   width: ($column-width * $span) + ($gutter-width *($span -1));
-// }
+@mixin grid-unit($span) {
+  float: left;
+  margin-right: $gutter-width;
+  width: ($column-width * $span) + ($gutter-width *($span -1));
+}
+
+// just style things
 
 .container{
-  background-color: red;
+  // background-color: red;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 2px;
   @include clearfix;
   // @include grid-unit(12);
   float: none;
-  margin: 0 auto;
+  // margin: 0 auto;
 }
 
 body > * {
@@ -37,6 +42,25 @@ body > * {
 
 
 .btn {
+  border: none;
+  padding: 2px;
+  background-color: rgb(77, 88, 88);
+  box-shadow: 0 0.5em 0.25em 0;
+  color: white;
+  border-radius: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+// grid
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: $gutter-width
+}
+
+.col {
   border: 1px solid black;
-  border-radius: 0.5em;
 }
