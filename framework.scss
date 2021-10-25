@@ -29,7 +29,8 @@ $gutter-width: 20px;
   // background-color: red;
   border: 1px solid black;
   padding: 10px;
-  margin: 2px;
+  margin: 5px;
+  margin-top: 10px;
   @include clearfix;
   // @include grid-unit(12);
   float: none;
@@ -64,8 +65,13 @@ body > * {
 }
 
 .col {
-  border: 1px solid black;
+  // border: 1px solid black;
   margin-top: 5px;
+}
+
+.col:hover {
+  // padding-left: 10px;
+  margin-left: 5px;
 }
 
 // .column-1 {

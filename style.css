@@ -9,7 +9,8 @@
 .container {
   border: 1px solid black;
   padding: 10px;
-  margin: 2px;
+  margin: 5px;
+  margin-top: 10px;
   float: none; }
   .container:before, .container:after {
     content: "";
@@ -42,7 +43,9 @@ body > * {
   grid-gap: 20px; }
 
 .col {
-  border: 1px solid black;
   margin-top: 5px; }
+
+.col:hover {
+  margin-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */
