@@ -28,8 +28,8 @@ $gutter-width: 20px;
 .container{
   // background-color: red;
   border: 1px solid black;
-  padding: 10px;
-  margin: 5px;
+  // padding: 10px;
+  // margin: 5px;
   margin-top: 10px;
   @include clearfix;
   // @include grid-unit(12);
@@ -61,12 +61,17 @@ body > * {
 .grid{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: $gutter-width
+  grid-gap: $gutter-width;
+  // background-color: darkslategrey;
 }
 
 .col {
   // border: 1px solid black;
   margin-top: 5px;
+  // background-color: #333;
+  // color: white;
+  // font-weight: bold;
+
 }
 
 .col:hover {
@@ -77,3 +82,18 @@ body > * {
 // .column-1 {
 //   background-color: yellow;
 // }
+
+// Navbar
+
+.nav{
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+// Section
+
+
+.section {
+  grid-column: 1/span 5;
+}

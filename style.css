@@ -8,8 +8,6 @@
 
 .container {
   border: 1px solid black;
-  padding: 10px;
-  margin: 5px;
   margin-top: 10px;
   float: none; }
   .container:before, .container:after {
@@ -47,5 +45,13 @@ body > * {
 
 .col:hover {
   margin-left: 5px; }
+
+.nav {
+  background-color: #333;
+  color: white;
+  font-weight: bold; }
+
+.section {
+  grid-column: 1/span 5; }
 
 /*# sourceMappingURL=style.css.map */
