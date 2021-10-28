@@ -96,4 +96,15 @@ body > * {
 
 .section {
   grid-column: 1/span 5;
+  background-color: lightgrey;
+}
+
+.image{
+  height: 210px;
+  width: 210px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
 }
