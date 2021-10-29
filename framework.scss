@@ -27,6 +27,7 @@ $gutter-width: 20px;
 
 .container{
   // background-color: red;
+  display: flex;
   border: 1px solid black;
   // padding: 10px;
   // margin: 5px;
@@ -95,8 +96,9 @@ body > * {
 
 
 .section {
-  grid-column: 1/span 5;
+  // grid-column: 1/span 5;
   background-color: lightgrey;
+  margin: auto;
 }
 
 .image{
@@ -107,4 +109,11 @@ body > * {
 .link {
   text-decoration: none;
   font-weight: bold;
+}
+
+// main body styles
+
+.body-image {
+  height: 110px;
+  width: 110px;
 }

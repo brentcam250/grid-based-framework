@@ -7,6 +7,7 @@
   zoom: 1; }
 
 .container {
+  display: flex;
   border: 1px solid black;
   margin-top: 10px;
   float: none; }
@@ -52,8 +53,8 @@ body > * {
   font-weight: bold; }
 
 .section {
-  grid-column: 1/span 5;
-  background-color: lightgrey; }
+  background-color: lightgrey;
+  margin: auto; }
 
 .image {
   height: 210px;
@@ -62,5 +63,9 @@ body > * {
 .link {
   text-decoration: none;
   font-weight: bold; }
+
+.body-image {
+  height: 110px;
+  width: 110px; }
 
 /*# sourceMappingURL=style.css.map */
