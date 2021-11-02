@@ -27,7 +27,8 @@ $gutter-width: 20px;
 
 .container{
   // background-color: red;
-  display: flex;
+  // display: flex;
+  display: grid;
   border: 1px solid black;
   // padding: 10px;
   // margin: 5px;
@@ -116,4 +117,30 @@ body > * {
 .body-image {
   height: 110px;
   width: 110px;
+}
+
+.container-left{
+  grid-column: 3 / span 5;
+}
+
+.container-right {
+  grid-column: 8 / span 2;
+}
+
+// .episodes {
+//    grid-column-start: 1;
+//    grid-column-end: 12
+// }
+.row-1 {
+  grid-row-start: 1;
+  grid-row-end: span 1;
+
+}
+.row-2 {
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
+.row-3 {
+  grid-row-start: 3;
+
 }
