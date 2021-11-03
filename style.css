@@ -85,4 +85,9 @@ body > * {
 .row-3 {
   grid-row-start: 3; }
 
+.sidebar {
+  border: 1px solid black;
+  grid-column-start: 10;
+  grid-column-end: 12; }
+
 /*# sourceMappingURL=style.css.map */
