@@ -91,5 +91,17 @@ body > * {
   grid-column-end: 12;
   grid-row-start: 1;
   grid-row-end: 5; }
+  .sidebar h4 {
+    text-decoration: underline; }
+  .sidebar li {
+    text-decoration: none;
+    list-style: none;
+    color: blue; }
+  .sidebar li:hover {
+    color: slateblue; }
+
+.footer {
+  background-color: #333;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
