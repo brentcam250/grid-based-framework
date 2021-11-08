@@ -82,10 +82,66 @@ body > * {
   margin-left: 5px;
 }
 
-// .column-1 {
-//   background-color: yellow;
-// }
+.column-1 {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+}
 
+.column-2 {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+
+}
+.column-3 {
+  grid-column-start: 3;
+  grid-column-end: span 1;
+
+}
+.column-4 {
+  grid-column-start: 4;
+  grid-column-end: span 1;
+
+}
+.column-5 {
+  grid-column-start: 5;
+  grid-column-end: span 1;
+
+}
+.column-6 {
+  grid-column-start: 6;
+  grid-column-end: span 1;
+
+}
+.column-7 {
+  grid-column-start: 7;
+  grid-column-end: span 1;
+
+}
+.column-8 {
+  grid-column-start: 8;
+  grid-column-end: span 1;
+
+}
+.column-9 {
+  grid-column-start: 9;
+  grid-column-end: span 1;
+
+}
+.column-10 {
+  grid-column-start: 10;
+  grid-column-end: span 1;
+
+}
+.column-11 {
+  grid-column-start: 11;
+  grid-column-end: span 1;
+
+}
+.column-12 {
+  grid-column-start: 12;
+  grid-column-end: span 1;
+
+}
 // Navbar
 
 .nav{
@@ -131,7 +187,7 @@ body > * {
 // .episodes {
 //    grid-column-start: 1;
 //    grid-column-end: 12
-// }
+// // }
 .row-1 {
   grid-row-start: 1;
   grid-row-end: span 1;
@@ -174,4 +230,6 @@ body > * {
 .footer{
   background-color: $background;
   color: white;
+  padding: 20px;
+  margin: 0;
 }
