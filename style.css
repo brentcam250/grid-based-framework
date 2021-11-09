@@ -8,7 +8,6 @@
 
 .container {
   display: grid;
-  border: 1px solid black;
   margin-top: 10px;
   float: none; }
   .container:before, .container:after {
@@ -134,9 +133,8 @@ body > * {
   grid-row-start: 3; }
 
 .sidebar {
-  border: 1px solid black;
   grid-column-start: 10;
-  grid-column-end: 12;
+  grid-column-end: span 2;
   grid-row-start: 1;
   grid-row-end: 5; }
   .sidebar h4 {
